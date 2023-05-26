@@ -48,7 +48,7 @@ struct DetailView: View {
         .toolbar {
             // Orang ke 3
             ToolbarItem(placement: .navigationBarTrailing) {
-                NavigationBarButtonView(isLoved: $isLoved)
+                Text("Love") //NavigationBarButtonView(isLoved: $isLoved)
             }
         }
         
