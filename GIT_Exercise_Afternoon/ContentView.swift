@@ -45,7 +45,7 @@ struct ListRowView: View {
     var body: some View {
         // buat orang ke 2 ini kerjaan lu bro
         // Beresin si DetailView
-        NavigationLink(destination: Text("Tolong dibikin bro!")) {
+        NavigationLink(destination: DetailView()) {
             HStack(alignment: .top) {
                 Rectangle()
                     .frame(width: 80, height: 80)
